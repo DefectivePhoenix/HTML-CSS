@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Position</title>
+</head>
+<body>
+
+<div style="background-color: lightblue; width:200px; height:200px;">
+Div 1
+</div>
+<div style="background-color: lightblue; width:200px; height:200px;">
+Div 2
+</div>
+
+</body>

@@ -1,0 +1,98 @@
+	body {
+	background-color: rgb(200,200,200);
+	}
+	
+	h1 {
+	text-align: center;
+	color: rgb(0,123,123);
+	font-family: 'Diplomata SC', cursive;
+	font-size: 38px;
+	}
+	
+	h2 {
+	text-align: center;
+	color: rgb(0,123,123);
+	font-family: 'Titan One', cursive;
+	font-size: 32px;
+	margin-bottom: 100px;
+	}
+	
+	h3 {
+	text-align: center;
+	color: green;
+	font-family: 'Titan One', cursive;
+	font-size: 28px;
+	margin-bottom: 10px;
+	}
+	
+	button {
+	font-family: 'Stick No Bills', sans-serif;
+	font-size: 28px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	transition: background-color 0.15s;
+	transition: transform 0.15s;
+	transition:	box-shadow 0.15s;
+	background-color: green;
+	color: white;
+	border-style: none;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+		}
+	button:hover {
+	background-color: blue;
+	}
+	button:active {
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+	}
+		
+	input {
+	margin-bottom: 5px;	
+	}
+	
+	.menu-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	justify-items: center;
+	}
+				
+	.recipe-name {
+		width: 350px;
+	}
+	
+	.ingredient-list {
+	text-align: center;
+	}
+	
+	.qty {
+		width: 50px;
+	}
+	
+	.measure {
+		width: 100px;
+	}
+	
+	.item {
+		width: 300px;
+	}
+	
+	.direction-list {
+		text-align: center;
+	}
+	
+	.step-1,.step-2,.step-3,.step-4,.step-5 {
+		width: 500px;
+	}
+	
+	.save-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
